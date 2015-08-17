@@ -7,56 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A5568C847D229CF793C67145708BA5B /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59F0069C73EE40676C441CA6439203E /* Encoder.swift */; };
-		210B08EB9D275150419574AB6E355FC1 /* Gloss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 920A4C8A55B540163D31BE57AF5402C3 /* Gloss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2D87990E7C07F50091F8563EDED80512 /* Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = 0791F64E84A98BB566059849AE482FBE /* Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3DB46A88B71B5BC6C02A80313E30AC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3574BEA8FB9C9E5500279E9B4E2D8253 /* Foundation.framework */; };
-		59A3BF83DD21BA678A82518345122C33 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD4AF6451E02EC12FDA1ABF10A3542B /* Operators.swift */; };
-		722A73B8D5C9BB3644E9C5C40EA4B6A2 /* Gloss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21180252E0BB746DFD54808C0420313F /* Gloss-dummy.m */; };
+		2535123EB858366A0BF60FB28A4FF1BD /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B4B4AE59A5664DCE96D71D16AA3A48 /* Operators.swift */; };
+		3DB46A88B71B5BC6C02A80313E30AC33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98E0E851AE8649661E771252129FFB /* Foundation.framework */; };
 		784D2B214307527FEDEC6987A6409470 /* Pods-GlossExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C116EB7817333E0B2376D5CAD9AE6A12 /* Pods-GlossExample-dummy.m */; };
-		8B21EF841148FD91F453D6719B22493A /* Gloss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7773B64269BBA86C4FE1169442C75DBF /* Gloss.swift */; };
+		8668F24758290535D685E0207B8D0F6E /* Gloss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743D50E93118849E7BC63097F279BDCB /* Gloss.swift */; };
 		8CF152647C66E71A4B698F38284E85D1 /* Pods-GlossExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5655362246FEF559A472593BFB5F4909 /* Pods-GlossExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D614B34F5367D85BE6D1D59A59D8435 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF4367690373E04FE6200375582DDD1 /* Decoder.swift */; };
-		9E2E12161A9BA1FB1ACBBC87DC5E7174 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963BA91532633103730670A6C30E336F /* Dictionary.swift */; };
-		E0A0D11439368BAF61714DC39A047219 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3574BEA8FB9C9E5500279E9B4E2D8253 /* Foundation.framework */; };
+		A1F549440E56C8F56A6F470E950B28C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B98E0E851AE8649661E771252129FFB /* Foundation.framework */; };
+		A72E622B3A248F74D503553D560C42A3 /* Gloss.h in Headers */ = {isa = PBXBuildFile; fileRef = E276B785B87BB0988F177FD6AF204670 /* Gloss.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92947CB940684D3BEE823822D3B78A2 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF679B0BF6356C782B7082BF8E3D369 /* Encoder.swift */; };
+		BABD8D76A24345C8D72F120C47513686 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23AE8E5D5CF6D6012362CF182A3E9C11 /* Decoder.swift */; };
+		BC33F5B9E7B3473EA94E85F5D95ACC62 /* Gloss-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09643AE96549902D0A5D186E9998E0C /* Gloss-dummy.m */; };
+		BF64378BB8F4D72A3C29B8B4B5F72274 /* Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7498E2C34F4540A62C2F3A856FED1D /* Dictionary.swift */; };
+		FF15CC230D1624EE90E8E4E9C99BA851 /* Gloss-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9468B677665305ED22938958884454 /* Gloss-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		71E0DBDA4FEE5127F3732AB6FF011884 /* PBXContainerItemProxy */ = {
+		76B970AE98195FC3E0373C4A2A3D85F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4FEDE5E79867CBFE681144DC1658167;
+			remoteGlobalIDString = D92B772AC1F3763CB5E428FC69B45729;
 			remoteInfo = Gloss;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0791F64E84A98BB566059849AE482FBE /* Gloss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gloss.h; path = Pod/Classes/Gloss.h; sourceTree = "<group>"; };
+		1B98E0E851AE8649661E771252129FFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1ED14541E8048B780BA390C9AFD615AB /* Gloss-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-prefix.pch"; sourceTree = "<group>"; };
-		21180252E0BB746DFD54808C0420313F /* Gloss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gloss-dummy.m"; sourceTree = "<group>"; };
+		23AE8E5D5CF6D6012362CF182A3E9C11 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Pod/Classes/Decoder.swift; sourceTree = "<group>"; };
 		2AF0E65D93E94B26715FF4FB6D2D6CF0 /* Pods-GlossExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GlossExample-acknowledgements.plist"; sourceTree = "<group>"; };
-		2FF4367690373E04FE6200375582DDD1 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Pod/Classes/Decoder.swift; sourceTree = "<group>"; };
-		3574BEA8FB9C9E5500279E9B4E2D8253 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4299B5781B2ED2B58D7032F19AE80130 /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		385404CFC27F5402139621F714EB8588 /* Gloss-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Gloss-Private.xcconfig"; sourceTree = "<group>"; };
 		5655362246FEF559A472593BFB5F4909 /* Pods-GlossExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GlossExample-umbrella.h"; sourceTree = "<group>"; };
 		57F8B4A0A70E84A70A62F94D668D01D4 /* Pods-GlossExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GlossExample.modulemap"; sourceTree = "<group>"; };
 		5A18F47853AC0745FF1AA04BD7721135 /* Pods-GlossExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlossExample.debug.xcconfig"; sourceTree = "<group>"; };
-		7457C7ACFB52F5D2EA8BEC3C6327B6A1 /* Gloss-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Gloss-Private.xcconfig"; sourceTree = "<group>"; };
-		7773B64269BBA86C4FE1169442C75DBF /* Gloss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gloss.swift; path = Pod/Classes/Gloss.swift; sourceTree = "<group>"; };
+		743D50E93118849E7BC63097F279BDCB /* Gloss.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gloss.swift; path = Pod/Classes/Gloss.swift; sourceTree = "<group>"; };
 		7E5D04F2EBA6D78371C59139764A27B5 /* Gloss.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Gloss.modulemap; sourceTree = "<group>"; };
 		8416969A6697D9555063315CD106200D /* Pods_GlossExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlossExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		920A4C8A55B540163D31BE57AF5402C3 /* Gloss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-umbrella.h"; sourceTree = "<group>"; };
-		963BA91532633103730670A6C30E336F /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Pod/Classes/Extensions/Dictionary.swift; sourceTree = "<group>"; };
 		999AFE97BB949EDE90BE976D21D8F65F /* Gloss.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gloss.xcconfig; sourceTree = "<group>"; };
-		A59F0069C73EE40676C441CA6439203E /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Pod/Classes/Encoder.swift; sourceTree = "<group>"; };
+		9E790983997C2746E28370B5A4F1BDDD /* Gloss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gloss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86CB086A03EDF19BD5AE85CE00D72CC /* Pods-GlossExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GlossExample.release.xcconfig"; sourceTree = "<group>"; };
-		ADD4AF6451E02EC12FDA1ABF10A3542B /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Pod/Classes/Operators.swift; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C116EB7817333E0B2376D5CAD9AE6A12 /* Pods-GlossExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GlossExample-dummy.m"; sourceTree = "<group>"; };
 		C7844A1270F54F4A742E5F5077A06A94 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF679B0BF6356C782B7082BF8E3D369 /* Encoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Encoder.swift; path = Pod/Classes/Encoder.swift; sourceTree = "<group>"; };
 		D02A70FD42EA6DD3EF64F2C237C942AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8A8F6E876BB93446EA64393CC27A971 /* Pods-GlossExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlossExample-resources.sh"; sourceTree = "<group>"; };
+		DC9468B677665305ED22938958884454 /* Gloss-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gloss-umbrella.h"; sourceTree = "<group>"; };
+		DE7498E2C34F4540A62C2F3A856FED1D /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Pod/Classes/Extensions/Dictionary.swift; sourceTree = "<group>"; };
+		E276B785B87BB0988F177FD6AF204670 /* Gloss.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Gloss.h; path = Pod/Classes/Gloss.h; sourceTree = "<group>"; };
+		E2B4B4AE59A5664DCE96D71D16AA3A48 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Pod/Classes/Operators.swift; sourceTree = "<group>"; };
+		F09643AE96549902D0A5D186E9998E0C /* Gloss-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gloss-dummy.m"; sourceTree = "<group>"; };
 		F393C3B6E0EF9B180687890924166863 /* Pods-GlossExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GlossExample-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FBA3636A77B5FEB86E11934E8BFD67A8 /* Pods-GlossExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GlossExample-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,11 +70,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D34B6B7A75614CF1E12D09422DD9FF13 /* Frameworks */ = {
+		AC8E72DDB2C8683F02712BCFA433F9F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A0D11439368BAF61714DC39A047219 /* Foundation.framework in Frameworks */,
+				A1F549440E56C8F56A6F470E950B28C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,10 +86,10 @@
 			children = (
 				7E5D04F2EBA6D78371C59139764A27B5 /* Gloss.modulemap */,
 				999AFE97BB949EDE90BE976D21D8F65F /* Gloss.xcconfig */,
-				7457C7ACFB52F5D2EA8BEC3C6327B6A1 /* Gloss-Private.xcconfig */,
-				21180252E0BB746DFD54808C0420313F /* Gloss-dummy.m */,
+				385404CFC27F5402139621F714EB8588 /* Gloss-Private.xcconfig */,
+				F09643AE96549902D0A5D186E9998E0C /* Gloss-dummy.m */,
 				1ED14541E8048B780BA390C9AFD615AB /* Gloss-prefix.pch */,
-				920A4C8A55B540163D31BE57AF5402C3 /* Gloss-umbrella.h */,
+				DC9468B677665305ED22938958884454 /* Gloss-umbrella.h */,
 				D02A70FD42EA6DD3EF64F2C237C942AB /* Info.plist */,
 			);
 			name = "Support Files";
@@ -107,7 +107,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				3574BEA8FB9C9E5500279E9B4E2D8253 /* Foundation.framework */,
+				1B98E0E851AE8649661E771252129FFB /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -115,11 +115,11 @@
 		5F9C740120EFDA26C22197BDDE591288 /* Gloss */ = {
 			isa = PBXGroup;
 			children = (
-				2FF4367690373E04FE6200375582DDD1 /* Decoder.swift */,
-				A59F0069C73EE40676C441CA6439203E /* Encoder.swift */,
-				0791F64E84A98BB566059849AE482FBE /* Gloss.h */,
-				7773B64269BBA86C4FE1169442C75DBF /* Gloss.swift */,
-				ADD4AF6451E02EC12FDA1ABF10A3542B /* Operators.swift */,
+				23AE8E5D5CF6D6012362CF182A3E9C11 /* Decoder.swift */,
+				CAF679B0BF6356C782B7082BF8E3D369 /* Encoder.swift */,
+				E276B785B87BB0988F177FD6AF204670 /* Gloss.h */,
+				743D50E93118849E7BC63097F279BDCB /* Gloss.swift */,
+				E2B4B4AE59A5664DCE96D71D16AA3A48 /* Operators.swift */,
 				BF14DBDAE000CC964B17F75E0306BDE5 /* Extensions */,
 				1825F6C321DA2ECB28B3B5BF729BBD23 /* Support Files */,
 			);
@@ -148,7 +148,7 @@
 		BF14DBDAE000CC964B17F75E0306BDE5 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				963BA91532633103730670A6C30E336F /* Dictionary.swift */,
+				DE7498E2C34F4540A62C2F3A856FED1D /* Dictionary.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -156,7 +156,7 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4299B5781B2ED2B58D7032F19AE80130 /* Gloss.framework */,
+				9E790983997C2746E28370B5A4F1BDDD /* Gloss.framework */,
 				8416969A6697D9555063315CD106200D /* Pods_GlossExample.framework */,
 			);
 			name = Products;
@@ -191,20 +191,20 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		920964223ADD2BDCDC56CAC2A6393288 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF15CC230D1624EE90E8E4E9C99BA851 /* Gloss-umbrella.h in Headers */,
+				A72E622B3A248F74D503553D560C42A3 /* Gloss.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		996218B2E3CBE09CF9ECE10048592E04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CF152647C66E71A4B698F38284E85D1 /* Pods-GlossExample-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD59814FF93C7F7C8C4DDDD975CE36C8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				210B08EB9D275150419574AB6E355FC1 /* Gloss-umbrella.h in Headers */,
-				2D87990E7C07F50091F8563EDED80512 /* Gloss.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,20 +222,20 @@
 			buildRules = (
 			);
 			dependencies = (
-				21BA75EC6F9D5674779D197DB81D0BB3 /* PBXTargetDependency */,
+				8228D9DF1ECFA15D02AD4F67C5C0E4B1 /* PBXTargetDependency */,
 			);
 			name = "Pods-GlossExample";
 			productName = "Pods-GlossExample";
 			productReference = 8416969A6697D9555063315CD106200D /* Pods_GlossExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F4FEDE5E79867CBFE681144DC1658167 /* Gloss */ = {
+		D92B772AC1F3763CB5E428FC69B45729 /* Gloss */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 218108F03B15C6CC1340CE2C18B6B1FD /* Build configuration list for PBXNativeTarget "Gloss" */;
+			buildConfigurationList = C267E39582874CB12F0466AACAF3D413 /* Build configuration list for PBXNativeTarget "Gloss" */;
 			buildPhases = (
-				42690F290F2F49C4B2B10E20111FB0FA /* Sources */,
-				D34B6B7A75614CF1E12D09422DD9FF13 /* Frameworks */,
-				BD59814FF93C7F7C8C4DDDD975CE36C8 /* Headers */,
+				F0379A1CA2E8157C6948698E17B0564C /* Sources */,
+				AC8E72DDB2C8683F02712BCFA433F9F8 /* Frameworks */,
+				920964223ADD2BDCDC56CAC2A6393288 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -243,7 +243,7 @@
 			);
 			name = Gloss;
 			productName = Gloss;
-			productReference = 4299B5781B2ED2B58D7032F19AE80130 /* Gloss.framework */;
+			productReference = 9E790983997C2746E28370B5A4F1BDDD /* Gloss.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -267,7 +267,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F4FEDE5E79867CBFE681144DC1658167 /* Gloss */,
+				D92B772AC1F3763CB5E428FC69B45729 /* Gloss */,
 				12E212096D417250EFD1E69F2B45EE2B /* Pods-GlossExample */,
 			);
 		};
@@ -282,58 +282,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		42690F290F2F49C4B2B10E20111FB0FA /* Sources */ = {
+		F0379A1CA2E8157C6948698E17B0564C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D614B34F5367D85BE6D1D59A59D8435 /* Decoder.swift in Sources */,
-				9E2E12161A9BA1FB1ACBBC87DC5E7174 /* Dictionary.swift in Sources */,
-				1A5568C847D229CF793C67145708BA5B /* Encoder.swift in Sources */,
-				722A73B8D5C9BB3644E9C5C40EA4B6A2 /* Gloss-dummy.m in Sources */,
-				8B21EF841148FD91F453D6719B22493A /* Gloss.swift in Sources */,
-				59A3BF83DD21BA678A82518345122C33 /* Operators.swift in Sources */,
+				BABD8D76A24345C8D72F120C47513686 /* Decoder.swift in Sources */,
+				BF64378BB8F4D72A3C29B8B4B5F72274 /* Dictionary.swift in Sources */,
+				A92947CB940684D3BEE823822D3B78A2 /* Encoder.swift in Sources */,
+				BC33F5B9E7B3473EA94E85F5D95ACC62 /* Gloss-dummy.m in Sources */,
+				8668F24758290535D685E0207B8D0F6E /* Gloss.swift in Sources */,
+				2535123EB858366A0BF60FB28A4FF1BD /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21BA75EC6F9D5674779D197DB81D0BB3 /* PBXTargetDependency */ = {
+		8228D9DF1ECFA15D02AD4F67C5C0E4B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Gloss;
-			target = F4FEDE5E79867CBFE681144DC1658167 /* Gloss */;
-			targetProxy = 71E0DBDA4FEE5127F3732AB6FF011884 /* PBXContainerItemProxy */;
+			target = D92B772AC1F3763CB5E428FC69B45729 /* Gloss */;
+			targetProxy = 76B970AE98195FC3E0373C4A2A3D85F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B8761203CE4367CFC14A121FD464884 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7457C7ACFB52F5D2EA8BEC3C6327B6A1 /* Gloss-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.3.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Gloss/Gloss-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Gloss/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Gloss/Gloss.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Gloss;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		56D33D83768574B0EC8D41086BD253F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A18F47853AC0745FF1AA04BD7721135 /* Pods-GlossExample.debug.xcconfig */;
@@ -403,9 +376,36 @@
 			};
 			name = Debug;
 		};
-		B8CF586CC7FF2C0E90C5F5B94D6D8B71 /* Debug */ = {
+		B9198BC14136D045EBCCE6167255AB46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7457C7ACFB52F5D2EA8BEC3C6327B6A1 /* Gloss-Private.xcconfig */;
+			baseConfigurationReference = 385404CFC27F5402139621F714EB8588 /* Gloss-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Gloss/Gloss-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gloss/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gloss/Gloss.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Gloss;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF5053350317AA57D97EE9A277975BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 385404CFC27F5402139621F714EB8588 /* Gloss-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 0.3.0;
@@ -497,15 +497,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		218108F03B15C6CC1340CE2C18B6B1FD /* Build configuration list for PBXNativeTarget "Gloss" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B8CF586CC7FF2C0E90C5F5B94D6D8B71 /* Debug */,
-				1B8761203CE4367CFC14A121FD464884 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -520,6 +511,15 @@
 			buildConfigurations = (
 				56D33D83768574B0EC8D41086BD253F7 /* Debug */,
 				F7AD5069F2FB075E4F60B2B21D908CE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C267E39582874CB12F0466AACAF3D413 /* Build configuration list for PBXNativeTarget "Gloss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5053350317AA57D97EE9A277975BDD /* Debug */,
+				B9198BC14136D045EBCCE6167255AB46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

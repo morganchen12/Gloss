@@ -4,17 +4,17 @@ PODS:
   - Gloss/Extensions (0.3.0)
 
 DEPENDENCIES:
-  - Gloss (from `https://github.com/hkellaway/Gloss.git`, tag `0.3.0`)
+  - Gloss (from `https://github.com/hkellaway/Gloss.git`, branch `swift_1.2`)
 
 EXTERNAL SOURCES:
   Gloss:
+    :branch: swift_1.2
     :git: https://github.com/hkellaway/Gloss.git
-    :tag: 0.3.0
 
 CHECKOUT OPTIONS:
   Gloss:
+    :commit: fe61990550b7b2e0135c4e6cf754db6f0ed60413
     :git: https://github.com/hkellaway/Gloss.git
-    :tag: 0.3.0
 
 SPEC CHECKSUMS:
   Gloss: 969df249528bde2e87753460c6464ea4153c62c8

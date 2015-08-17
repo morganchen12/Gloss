@@ -39,16 +39,4 @@ class DictionaryTests: XCTestCase {
         super.tearDown()
     }
     
-    func testAddCombinesTwoDictionaries() {
-        var jsonDict1: [String : String] = ["a" : "b", "c" : "d"]
-        let jsonDict2: [String : String] = ["e" : "f", "g" : "h"]
-        
-        jsonDict1.add(jsonDict2)
-        
-        XCTAssert((jsonDict1["a"] == "b"), "Dictionary extension add(_:) should combine two dictionaries")
-        XCTAssert((jsonDict1["c"] == "d"), "Dictionary extension add(_:) should combine two dictionaries")
-        XCTAssert((jsonDict1["e"] == "f"), "Dictionary extension add(_:) should combine two dictionaries")
-        XCTAssert((jsonDict1["g"] == "h"), "Dictionary extension add(_:) should combine two dictionaries")
-    }
-    
 }

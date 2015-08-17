@@ -36,7 +36,7 @@ public struct Encoder {
         return {
             property in
             
-            if let property = property as? AnyObject {
+            if let property: AnyObject = property as? AnyObject {
                 return [key : property]
             }
             
@@ -77,7 +77,7 @@ public struct Encoder {
         return {
             array in
             
-            if let array = array as? AnyObject {
+            if let array: AnyObject = array as? AnyObject {
                 return [key : array]
             }
             
@@ -207,7 +207,7 @@ public struct Encoder {
             url in
             
             if let url = url {
-                return [key : url.absoluteString]
+                return [key : url.absoluteString!]
             }
             
             return nil

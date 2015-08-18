@@ -2,9 +2,19 @@
 All notable changes to this project will be documented in this file.
 `Gloss` adheres to [Semantic Versioning](http://semver.org/).
 
+- `0.4.x` Releases - [0.4.0](#040)
 - `0.3.x` Releases - [0.3.0](#030) | [0.3.1](#031) 
 - `0.2.x` Releases - [0.2.0](#020) 
 - `0.1.x` Releases - [0.1.0](#010) 
+
+
+---
+
+## [0.4.0](https://github.com/hkellaway/Gloss/releases/tag/0.4.0)
+Released on 2015-08-18.
+
+#### Added
+- Tests for object creation from JSON and JSON creation from object
 
 ---
 

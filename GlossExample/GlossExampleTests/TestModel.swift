@@ -67,7 +67,7 @@ struct TestModel: Glossy {
             stringArray: "stringArray" <~~ json,
             nestedModel: "nestedModel" <~~ json,
             nestedModelArray: "nestedModelArray" <~~ json,
-            enumValue: "enum" <~~ json,
+            enumValue: "enumValue" <~~ json,
             enumValueArray: "enumValueArray" <~~ json,
             date: Decoder.decodeDate("date", dateFormatter: TestModel.dateFormatter)(json),
             dateISO8601: Decoder.decodeDateISO8601("dateISO8601")(json),
